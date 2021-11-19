@@ -1,0 +1,80 @@
+.uni{
+    height: 100px;
+    width: 20px;
+   background: rgb(248, 192, 9);
+    color: floralwhite;
+    text-align: center;
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+    padding:0 100px 0 100px ;
+    border-radius: 100%;
+    border-style: solid white 4px;
+    justify-content: center;
+    animation: fun 12s   infinite;
+}
+@keyframes fun{
+    0%{
+        
+        background: yellow;
+        
+    }
+    30%{
+        background: green;
+
+    }
+    40%{
+        background: #000;
+    }
+    50%{
+       
+        background: red;
+        margin-left: 80%;
+       
+        padding: 10px 20px 10px 20px;
+        
+    }
+    80%{
+        width: 80px;
+        background: blue;
+        margin-top: 7%;
+    }
+}
+
+  .diff{
+      height: 40px;
+      background:red;
+      color: aqua;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      display: flex;
+      
+      justify-content: center;
+     
+     
+      animation: fun2 1s   infinite;
+}
+*{
+    background: black;
+    
+}
+p.uni:hover{
+    width: 300px;
+    height: 120px;
+    border-radius: 30%;
+    
+   
+}
+@keyframes fun2{
+    0%{
+        background: aqua;
+        font-size: small;
+    }
+    50%{
+        background: rgb(180, 226, 11);
+        color: red;
+        font-size: xx-large;
+    }
+}
